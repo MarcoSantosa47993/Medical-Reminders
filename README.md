@@ -1,4 +1,4 @@
-# Medicines Appointements Reminders
+# Medicines Appointements Reminders (Flutter)
 
 ## Firebase Installation / Configuration
 
@@ -33,3 +33,10 @@ flutterfire configure
 5. Select firebase project created previously
 
 6. Keep selected all systems
+
+7. Finally, install the dependencies and run the project:
+```bash
+flutter pub get
+# and
+flutter run -d browser
+```
