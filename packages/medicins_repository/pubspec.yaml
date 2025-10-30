@@ -1,0 +1,30 @@
+name: medicins_repository
+description: "The repo that handles medicins"
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1
+
+environment:
+    sdk: ^3.7.2
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    firebase_auth: ^5.5.2
+    cloud_firestore: ^5.6.6
+    rxdart: ^0.28.0
+    dependents_repository:
+        path: ../dependents_repository
+    # path: ^1.9.1
+    # equatable: ^2.0.7
+    # firebase_storage: ^12.4.5
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true

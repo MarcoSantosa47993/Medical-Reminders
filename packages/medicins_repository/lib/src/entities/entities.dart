@@ -1,0 +1,1 @@
+export 'medicin_entity.dart';
