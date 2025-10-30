@@ -34,7 +34,7 @@ flutterfire configure
 
 6. Keep selected all systems
 
-7. Depois, corre os comandos:
+7. Then, run the commands:
 
 ```bash
 
